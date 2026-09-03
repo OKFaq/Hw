@@ -35,6 +35,6 @@ function padString(str, length, symbol, isLeft = false) {
     }
 }
 
-console.log(padString('hello', 8, '*'));         // Виведе: hello*** (бо аргумент забули, спрацює "інакше")
-console.log(padString('hello', 6, '*', false));   // Виведе: *hello (передали false — додало ліворуч!)
-console.log(padString('hello', 2));              // Виведе: he
+console.log(padString('hello', 8, '*'));
+console.log(padString('hello', 6, '*', false));
+console.log(padString('hello', 2));
